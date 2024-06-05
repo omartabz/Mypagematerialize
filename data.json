@@ -1,0 +1,47 @@
+{
+    "user" : {
+        "fullName": "Omar Tabengwa"
+        
+    },
+    "city" : {
+        "city":"Favourite City",
+        "name" : "Tokyo,Japan",
+        "description" : "Japan has a long and fascinating history, with traditions that are still practiced today.You can visit ancient temples and shrines, stroll through serene gardens,or attend a traditional tea ceremony. Japan is home to stunning natural landscapes, from snow-capped mountains and serene bamboo forests to pristine beaches and vibrant coral reefs. You can hike in the Japanese Alps, go skiing in Hokkaido, or relax on a beach in Okinawa. Lastly the variety of food ranges from sushi, sashimi, tempura, ramen, and many other dishes."
+    },
+    "foreignLanguage" : {
+        "language" : "Foreign Language: Japanese",
+        "phrases" :"The most widely spoken language in Japan is Japanese , called Nihongo (日本語) by the indigenous people. here are actually several dialects of Japanese spoken throughout the country, but the dialect of Tokyo is considered the standard form. In addition to Japanese, there are a couple of other minority languages spoken in Japan such as Ryukyuan and Ainu."
+
+    },
+
+    "Table" :
+        {
+            "sub1" : "Japanese",
+            "sub2" : "Phrases",
+            "phrase1" : "Konnichiwa (こんにちは)",
+            "response1":"Hello good afternoon",
+            "phrase2":"Sayōnara (さようなら)",
+            "response2":"Goodbye",
+            "phrase3":"Ikura desu ka? (いくらですか)",
+            "response3":"How much is this?",
+            "phrase4":"Kakatte koi! 「かかってこい」",
+            "response4":"Bring it on",
+            "phrase5":"Watashi ga kita も 大丈夫 なぜ って ワタシ が 北 -",
+            "response5":"I Am Here"
+        },
+
+    "Favsub":
+    {
+        "heading":"Favourite Subjects",
+        "subhead":"Qualification: Environmental management & Spatial Planning",
+        "subject1":"Geograhpy",
+        "photo1" : "./geo.jpeg",
+        "subdescription1":"Geography is the study of the Earth's surface, its features, and its inhabitants. It encompasses a wide range of topics.",
+        "subject2":"Economics",
+        "photo2" : "./eco.jpeg",
+        "subdescription2":"Economics is the social science concerned with the production, distribution,and consumption of goods and services.It essentially studies how individuals, businesses, and governments make choices to allocate scarce resources.",
+        "subject3":"Biology",
+        "subdescription3":"Biology is the scientific study of life. It is a natural science with a broad scope but has several unifying themes that tie it together as a single, coherent field.",
+        "photo3" : "./bio.jpeg"
+    }
+}

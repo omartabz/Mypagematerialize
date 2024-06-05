@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <title>Document</title>
+</head>
+
+<body style="background-color: bisque;">
+    <div class="col s12 m4 l2">
+        <div class="row">
+            <h1 style="text-align: center;">{{user.fullName}}</h1>
+            <img src="img.jpg" style="height:200px; width:200px;direction: rtl;">
+        </div>
+    </div>
+
+    <div class="row">
+        <h1>{{city.city}}</h1>
+        <h2>{{city.name}}</h2>
+        <div class="col l4 m6 s12"><img
+                src="https://www.thewanderinglens.com/wp-content/uploads/2018/12/HEADER-Tokyo-Photography-Locations-A-Photographers-Guide-to-Photo-Spots-in-Tokyo.jpg"
+                alt="A picture of Tokyo" style="height :200px;width: 200px;"></div>
+        <p class="col l4 m6 s12">{{city.description}}</p>
+    </div>
+    </div>
+
+    <h1 style="text-align: left;">{{foreignLanguage.language}}</h1>
+    <p>{{foreignLanguag.phrases}}</p>
+
+    <table border="5px" ; style="width: 1000px;" class="responsive-table">
+        <tr>
+            <th>{{Table.sub1}}</th>
+            <th>{{Table.sub2}}</th>
+        </tr>
+        <tr>
+            <td>{{Table.phrase1}}</td>
+            <td>{{Table.response1}}</td>
+        </tr>
+        <tr>
+            <td>{{Table.phrase2}}</td>
+            <td>{{Table.response2}}</td>
+        </tr>
+        <tr>
+            <td>{{Table.phrase3}} </td>
+            <td>{{Table.response3}}</td>
+        </tr>
+        <td>{{Table.phrase4}}</td>
+        <td>{{Table.response4}}</td>
+        <tr>
+            <td>{{Table.phrase5}}</td>
+            <td>{{Table.response5}}</td>
+        </tr>
+
+    </table>
+
+    <h1>{{Favsub.heading}}</h1>
+    <h3>{{Favsub.subhead}}</h3>
+    <div class="row">
+        <div class="col l4 m6 s12">
+            <div class="row">
+                <h2>{{Favsub.subject1}}</h2>
+                <p class="col s6">{{Favsub.subdescription1}}</p>
+                <img src="geo.jpeg" style="height:200px;width: 200px;" class="col s6">
+            </div>
+        </div>
+        <div class="col l4 m6 s12">
+            <h2>{{Favsub.subject2}}</h2>
+            <div class="row">
+                <p class="col s6">{{Favsub.subdescription2}}</p>
+                <img src="eco.jpeg" style="height:200px;width:200px" class="col s6">
+            </div>
+        </div>
+        <div class="col l4 m6 s12">
+            <h2>{{Favsub.subject3}}</h2>
+            <div class="row">
+                <p class="col s6">{{Favsub.subdescription3}}</p>
+                <img src="bio.jpeg" style="height:200px;width:200px" class="col s6">
+            </div>
+        </div>
+</body>
+
+</html>
