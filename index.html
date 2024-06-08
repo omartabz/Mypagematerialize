@@ -5,30 +5,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <title>Document</title>
 </head>
 
-<body style="background-color: bisque;">
+<body style="background-color: whitesmoke; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
     <div class="col s12 m4 l2">
+        <div class="bordered-text">
+        <h1>{{user.Talent}}</h1>
+        </div>
         <div class="row">
             <h1 style="text-align: center;">{{user.fullName}}</h1>
-            <img src="./img.jpg" style="height:200px; width:200px;direction: rtl;">
+            <div class="container">
+            <img src="./img.jpg" style="height:200px; width:200px;">
+            <p style="font-size: large;">{{user.SumName}}</p>
+            </div>
         </div>
     </div>
 
     <div class="row">
-        <h1>{{city.city}}</h1>
-        <h2>{{city.name}}</h2>
-        <div class="col l4 m6 s12"><img
+        <h1 style="text-align: center;">{{city.city}}</h1>
+        <h2 style="text-align: center;">{{city.name}}</h2>
+        <div class="container"><img
                 src="https://www.thewanderinglens.com/wp-content/uploads/2018/12/HEADER-Tokyo-Photography-Locations-A-Photographers-Guide-to-Photo-Spots-in-Tokyo.jpg"
-                alt="A picture of Tokyo" style="height :200px;width: 200px;"></div>
-        <p class="col l4 m6 s12">{{city.description}}</p>
-    </div>
+                alt="A picture of Tokyo" style="height :250px;width: 250px;">
+            <p style="font-size: large;">{{city.description}}</p>
+        </div>
     </div>
 
-    <h1 style="text-align: left;">{{foreignLanguage.language}}</h1>
+    <h1 style="text-align: center;">{{foreignLanguage.language}}</h1>
     <p>{{foreignLanguag.phrases}}</p>
 
     <table border="5px" ; style="width: 1000px;" class="responsive-table">
@@ -57,8 +63,8 @@
 
     </table>
 
-    <h1>{{Favsub.heading}}</h1>
-    <h3>{{Favsub.subhead}}</h3>
+    <h1 style="text-align: center;">{{Favsub.heading}}</h1>
+    <h3 style="text-align: center;">{{Favsub.subhead}}</h3>
     <div class="row">
         <div class="col l4 m6 s12">
             <div class="row">

@@ -1,11 +1,12 @@
 {
     "user" : {
-        "fullName": "Omar Tabengwa"
-        
+        "fullName": "Omar Tabengwa",
+        "SumName": "Resourceful and driven Geographic Information System (GIS) analyst, Carbon and Environmental Management specialist with a proven track record of success spanning 3 years. Proficient in providing technical and systems support, focusing on achieving results. Possesses exceptional problem-solving skills, adept at generating innovative and effective solutions for complex challenges. Skilled in Python, project management and adept at fostering business growth in competitive settings.",
+        "Talent":"Welcome to my Webpage with Materialize"
     },
     "city" : {
         "city":"Favourite City",
-        "name" : "Tokyo,Japan",
+        "name" : "Tokyo",
         "description" : "Japan has a long and fascinating history, with traditions that are still practiced today.You can visit ancient temples and shrines, stroll through serene gardens,or attend a traditional tea ceremony. Japan is home to stunning natural landscapes, from snow-capped mountains and serene bamboo forests to pristine beaches and vibrant coral reefs. You can hike in the Japanese Alps, go skiing in Hokkaido, or relax on a beach in Okinawa. Lastly the variety of food ranges from sushi, sashimi, tempura, ramen, and many other dishes."
     },
     "foreignLanguage" : {

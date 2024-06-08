@@ -1,13 +1,27 @@
-/*!
- * Materialize v1.0.0-rc.1 (http://materializecss.com)
- * Copyright 2014-2017 Materialize
- * MIT License (https://raw.githubusercontent.com/Dogfalo/materialize/master/LICENSE)
- */
- .materialize-red {
+.container {
+  display: flex;
+  justify-content:left;
+  align-items:self-start;
+  gap:10%;
+  border: 10px solid whitesmoke;
+  border-radius: 20px;
+  padding: 10px;
+  background-color: whitesmoke;
+}
+.bordered-text {
+  border: 2px solid whitesmoke; 
+  padding: 5px; 
+  text-align: center;
+  background-color: whitesmoke;
+  border-radius: 20px;
+
+}
+
+.materialize-red {
     background-color: #e51c23 !important;
   }
   
-  .materialize-red-text {
+.materialize-red-text {
     color: #e51c23 !important;
   }
   
